@@ -15,6 +15,6 @@ public class FirstLetterToUpperCase {
         .map(word -> Character.toUpperCase(word.charAt(0)) + word.substring(1))
         .collect(Collectors.toList());
 
-    System.out.println(capitalizedWord); // Correctly print the list
+    System.out.println(capitalizedWord); 
 }
 }
