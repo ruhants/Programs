@@ -13,6 +13,7 @@ public class Temp {
 		Stream<Integer> result=list.stream().distinct().sorted(Comparator.naturalOrder());
 		result.forEach(System.out::println);
 		System.out.println("--------------------------------------");
+		System.out.println("--------------------------------------");
 		TreeSet<Integer> tree = new TreeSet<>(list);
 		tree.forEach(System.out::println);
 	}
